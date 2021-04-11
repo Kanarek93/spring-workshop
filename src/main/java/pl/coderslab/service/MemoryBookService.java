@@ -1,11 +1,11 @@
-package pl.coderslab.model;
+package pl.coderslab.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ResponseStatusException;
-import pl.coderslab.interfaces.BookService;
+import pl.coderslab.model.Book;
 
 import java.util.ArrayList;
 import java.util.List;
